@@ -1,4 +1,5 @@
-# Welcome to cms.houk.space 👋
+# Houkasaurus CMS
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: HoukasaurusRex](https://img.shields.io/twitter/follow/HoukasaurusRex.svg?style=social)](https://twitter.com/HoukasaurusRex)
 
@@ -42,13 +43,3 @@ yarn test
 * Twitter: [@HoukasaurusRex](https://twitter.com/HoukasaurusRex)
 * Github: [@HoukasaurusRex](https://github.com/HoukasaurusRex)
 * LinkedIn: [@jt-houk](https://linkedin.com/in/jt-houk)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-[![support us](https://img.shields.io/badge/become-a patreon%20us-orange.svg?cacheSeconds=2592000)](https://www.patreon.com/TerminallyChillSoftware)
-
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
