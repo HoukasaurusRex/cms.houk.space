@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "landings",
+  "info": {
+    "name": "Landing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "hero": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "action": {
+      "type": "string"
+    }
+  }
+}

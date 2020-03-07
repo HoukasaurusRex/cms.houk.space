@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "projects",
+  "info": {
+    "name": "Projects"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "API",
+        "WebApp",
+        "CMS",
+        "NPM_Module"
+      ]
+    },
+    "Language": {
+      "type": "string"
+    },
+    "Screenshots": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "Link": {
+      "type": "string"
+    }
+  }
+}
