@@ -23,6 +23,18 @@
     },
     "title": {
       "type": "string"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

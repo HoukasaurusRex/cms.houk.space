@@ -17,12 +17,6 @@
       "type": "boolean",
       "default": true
     },
-    "heroImage": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload",
-      "required": false
-    },
     "heroText": {
       "type": "string"
     },
@@ -34,6 +28,21 @@
     },
     "features": {
       "type": "json"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "string"
     }
   }
 }
