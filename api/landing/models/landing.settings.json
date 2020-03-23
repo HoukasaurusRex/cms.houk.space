@@ -13,14 +13,27 @@
     "content": {
       "type": "richtext"
     },
-    "hero": {
+    "home": {
+      "type": "boolean",
+      "default": true
+    },
+    "heroImage": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
     },
-    "action": {
+    "heroText": {
       "type": "string"
+    },
+    "actionText": {
+      "type": "string"
+    },
+    "actionLink": {
+      "type": "string"
+    },
+    "features": {
+      "type": "json"
     }
   }
 }
