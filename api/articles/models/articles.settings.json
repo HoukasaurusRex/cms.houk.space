@@ -20,6 +20,9 @@
         "cooking",
         "lifestyle"
       ]
+    },
+    "Title": {
+      "type": "string"
     }
   }
 }
