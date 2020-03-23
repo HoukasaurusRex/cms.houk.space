@@ -21,7 +21,7 @@
         "lifestyle"
       ]
     },
-    "Title": {
+    "title": {
       "type": "string"
     }
   }
