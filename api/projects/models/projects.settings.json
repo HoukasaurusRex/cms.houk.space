@@ -10,7 +10,7 @@
     "timestamps": true
   },
   "attributes": {
-    "Category": {
+    "category": {
       "type": "enumeration",
       "enum": [
         "API",
@@ -19,16 +19,19 @@
         "NPM_Module"
       ]
     },
-    "Language": {
+    "language": {
       "type": "string"
     },
-    "Screenshots": {
+    "screenshots": {
       "collection": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
     },
-    "Link": {
+    "link": {
+      "type": "string"
+    },
+    "title": {
       "type": "string"
     }
   }

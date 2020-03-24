@@ -10,10 +10,10 @@
     "timestamps": true
   },
   "attributes": {
-    "Link": {
+    "link": {
       "type": "string"
     },
-    "Category": {
+    "category": {
       "type": "enumeration",
       "enum": [
         "tool",
@@ -21,11 +21,14 @@
         "design"
       ]
     },
-    "Screenshots": {
+    "screenshots": {
       "collection": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
