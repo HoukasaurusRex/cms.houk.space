@@ -15,7 +15,7 @@
       "enum": [
         "API",
         "WebApp",
-        "CMS",
+        "Dev_Tool",
         "NPM_Module"
       ]
     },
@@ -33,6 +33,9 @@
     },
     "title": {
       "type": "string"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
