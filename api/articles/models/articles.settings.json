@@ -46,7 +46,7 @@
         "archived"
       ],
       "default": "draft",
-      "required": false
+      "required": true
     }
   }
 }
