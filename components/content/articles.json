@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_content_articles",
+  "info": {
+    "name": "Articles",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}

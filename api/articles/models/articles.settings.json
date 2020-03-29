@@ -11,18 +11,20 @@
   },
   "attributes": {
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "category": {
       "type": "enumeration",
       "enum": [
         "coding",
-        "cooking",
+        "startup",
         "lifestyle"
       ]
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "tags": {
       "type": "json"
@@ -35,6 +37,16 @@
     },
     "description": {
       "type": "text"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "draft",
+        "published",
+        "archived"
+      ],
+      "default": "draft",
+      "required": true
     }
   }
 }
