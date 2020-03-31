@@ -36,6 +36,9 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }
