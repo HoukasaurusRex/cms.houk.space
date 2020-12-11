@@ -9,22 +9,23 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "sqlite3": "5.0.0"
+  },
   "dependencies": {
-    "knex": "0.20.13",
-    "pg": "^7.18.2",
-    "sqlite3": "latest",
-    "strapi": "3.0.0-beta.19.3",
-    "strapi-admin": "3.0.0-beta.19.3",
-    "strapi-connector-bookshelf": "3.0.0-beta.19.3",
-    "strapi-plugin-content-manager": "3.0.0-beta.19.3",
-    "strapi-plugin-content-type-builder": "3.0.0-beta.19.3",
-    "strapi-plugin-email": "3.0.0-beta.19.3",
-    "strapi-plugin-graphql": "3.0.0-beta.19.3",
-    "strapi-plugin-upload": "3.0.0-beta.19.3",
-    "strapi-plugin-users-permissions": "3.0.0-beta.19.3",
-    "strapi-provider-upload-cloudinary": "^3.0.0-beta.19.3",
-    "strapi-utils": "3.0.0-beta.19.3"
+    "knex": "0.21.12",
+    "pg": "^8.5.1",
+    "strapi": "^3.3.4",
+    "strapi-admin": "3.3.4",
+    "strapi-connector-bookshelf": "3.3.4",
+    "strapi-plugin-content-manager": "3.3.4",
+    "strapi-plugin-content-type-builder": "3.3.4",
+    "strapi-plugin-email": "3.3.4",
+    "strapi-plugin-graphql": "3.3.4",
+    "strapi-plugin-upload": "3.3.4",
+    "strapi-plugin-users-permissions": "3.3.4",
+    "strapi-provider-upload-cloudinary": "^3.3.4",
+    "strapi-utils": "3.3.4"
   },
   "author": {
     "name": "JT Houk <jt@houk.space> (https://jt.houk.space/)"
