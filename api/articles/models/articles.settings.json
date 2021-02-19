@@ -3,11 +3,13 @@
   "connection": "default",
   "collectionName": "articles",
   "info": {
-    "name": "Articles"
+    "name": "Articles",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "content": {
@@ -29,7 +31,7 @@
     "tags": {
       "type": "json"
     },
-    "image": {
+    "images": {
       "collection": "file",
       "via": "related",
       "plugin": "upload",
@@ -56,6 +58,9 @@
     },
     "date": {
       "type": "date"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
