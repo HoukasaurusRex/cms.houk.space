@@ -623,6 +623,9 @@
           },
           "description": {
             "type": "string"
+          },
+          "role": {
+            "type": "string"
           }
         }
       },
@@ -658,6 +661,9 @@
             "format": "date"
           },
           "description": {
+            "type": "string"
+          },
+          "role": {
             "type": "string"
           },
           "created_by": {
