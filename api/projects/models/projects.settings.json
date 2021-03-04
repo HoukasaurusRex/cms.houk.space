@@ -3,24 +3,23 @@
   "connection": "default",
   "collectionName": "projects",
   "info": {
-    "name": "Projects"
+    "name": "Projects",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "category": {
       "type": "enumeration",
       "enum": [
-        "API",
-        "WebApp",
-        "Dev_Tool",
-        "NPM_Module"
+        "Startup",
+        "Enterprise",
+        "Open_Source",
+        "Solo"
       ]
-    },
-    "language": {
-      "type": "string"
     },
     "screenshots": {
       "collection": "file",
@@ -37,8 +36,17 @@
     "content": {
       "type": "richtext"
     },
-    "date": {
+    "started_on": {
       "type": "date"
+    },
+    "technologies": {
+      "type": "json"
+    },
+    "finished_on": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
     }
   }
 }
