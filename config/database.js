@@ -13,11 +13,11 @@ module.exports = ({ env }) => ({
         schema: 'public',
         ssl: process.env.NODE_ENV === 'production' ? {
           rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
-        } : false,
+        } : false
       },
       options: {
         ssl: env.bool('DATABASE_SSL', false),
-      },
-    },
-  },
-});
+      }
+    }
+  }
+})
