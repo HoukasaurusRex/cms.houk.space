@@ -13,7 +13,7 @@
     "sqlite3": "5.0.2"
   },
   "dependencies": {
-    "knex": "0.95.6",
+    "knex": "2.4.0",
     "pg": "^8.6.0",
     "strapi": "^3.6.5",
     "strapi-admin": "3.6.5",
