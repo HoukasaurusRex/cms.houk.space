@@ -3,6 +3,9 @@
   "connection": "default",
   "collectionName": "landings",
   "info": {
+    "singularName": "landing",
+    "pluralName": "landings",
+    "displayName": "Landing",
     "name": "Landing"
   },
   "options": {

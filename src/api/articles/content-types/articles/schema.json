@@ -3,6 +3,9 @@
   "connection": "default",
   "collectionName": "articles",
   "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Articles",
     "name": "Articles",
     "description": ""
   },
